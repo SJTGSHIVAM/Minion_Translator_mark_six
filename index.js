@@ -6,6 +6,10 @@ const minionApi = "https://api.funtranslations.com/translate/minion.json";
 const translateQuery = (text) => {
   return minionApi + "?text=" + text;
 };
+const errorHandler = (err) => {
+  console.log(err);
+  alert("Something went wrong, Please try again later!");
+};
 
 const transelateText = () => {};
 
