@@ -23,4 +23,4 @@ const transelateText = () => {
 };
 
 translateButton.addEventListener("click", transelateText);
-console.log("1");
+// console.log("1");
