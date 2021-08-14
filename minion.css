@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Georama:wght@100&family=Ubuntu:wght@700&display=swap");
-
+html{
+  min-height: 100vh;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0px;
+}
 header {
   background-image: url(mini.jpg);
   background-size: cover;
@@ -12,6 +21,15 @@ header {
   display: flex;
   flex-direction: row;
   margin: -0.5rem -0.5rem 0.5rem -0.5rem;
+}
+.page{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items:stretch;
+}
+.main-content{
+ margin: auto;
 }
 
 h1 {
@@ -38,13 +56,13 @@ h1 {
   background-color: yellow;
   font-family: Georama;
   color: navy;
-  font-size: 5vh;
+  font-size: 2rem;
   font-weight: bold;
   margin-left: 11vw;
   margin-bottom: 8vh;
   border-radius: 10px;
   border-color: navy;
-  padding: 0.5vh;
+  padding: 0.2rem;
   height: 12vh;
   width: 20vw;}
 
@@ -89,7 +107,7 @@ div {
   align-items: center;
 }
 
-#div2 {
+#note {
   background-color: lightyellow;
   border-radius: 10px;
   margin: 2rem;
@@ -97,11 +115,7 @@ div {
   color: navy;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
+
 
 li {
   color: #ff0077;
@@ -116,12 +130,8 @@ ul {
 
 footer {
   background-color: yellow;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-
   text-align: center;
-  margin: -0.5rem;
+ 
 }
 
 
