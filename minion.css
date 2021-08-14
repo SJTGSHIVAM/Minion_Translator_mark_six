@@ -62,9 +62,8 @@ h1 {
   margin-bottom: 8vh;
   border-radius: 10px;
   border-color: navy;
-  padding: 0.2rem;
-  height: 12vh;
-  width: 20vw;}
+  padding: 2rem;
+}
 
 #output-div {
   background-color;
@@ -95,8 +94,8 @@ textarea {
   font-family: Georama;
   font-weight: bolder;
   font-size: large;
-  height: 10vh;
-  width: 20vw;
+  padding: 2rem;
+
   align-content: center;
   border-radius: 10px;
 }
@@ -147,10 +146,9 @@ footer {
     font-weight: bold;
     margin: 4rem 4rem 6rem 4rem;
     border-radius: 10px;
+    padding: 1rem;
 
-    padding: 0.2vh;
-    height: 12vh;
-    width: 60vw;
+
   }
 }
 @media screen and (max-width: 400px) {
@@ -165,8 +163,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 
-    height: 100vh;
-    width: 100vw;
+
     display: flex;
     flex-direction: row;
     margin: 0rem;
