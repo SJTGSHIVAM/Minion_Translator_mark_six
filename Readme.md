@@ -1,4 +1,4 @@
-**Description** A web app that converts English to minion language using a third-party API. Built using HTML, CSS, and Javascript.
+**Description:** A web app that converts English to minion language using a third-party API. Built using HTML, CSS, and Javascript.
 
 **Live Link** : https://translatethatminion.netlify.app
 
